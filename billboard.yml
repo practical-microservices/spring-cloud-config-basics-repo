@@ -1,3 +1,9 @@
+# seetings that will be returned for an application that 
+# identifies itself to the config server with name billboard
+# The app will get the settings in this file and in the 
+# application.yml file on the config server.  You can 
+# override any settings in the application.yml on the 
+# config server in this file. 
 server:
   port: 8081
 message: "Electronic Billboards Are Awesome!"

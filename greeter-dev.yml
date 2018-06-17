@@ -1,1 +1,11 @@
+# seetings that will be returned for an application that 
+# identifies itself to the config server with name billboard
+# and requests the dev profile.
+#
+# The app will get the settings in this file and in 
+# billboard.yml and in application.yml file on the config server.  
+#
+# You can override any settings in the application.yml on the 
+# billboard.yml file from this file.
+
 message: "This is the dev profile - Hello Spring Cloud Config!"
