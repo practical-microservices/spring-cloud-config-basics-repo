@@ -1,3 +1,1 @@
 message: "This is the dev profile - Hello Spring Cloud Config!"
-logging:
-  level: debug
