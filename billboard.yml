@@ -1,0 +1,3 @@
+server:
+  port: 8081
+message: "Electronic Billboards Are Awesome!"
