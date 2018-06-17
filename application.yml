@@ -8,9 +8,10 @@
 # end points visible without a password this is NOT recommend in 
 # production but is useful for demos
 management:
-  endpoint:
-    health:
-      show-details: always
+  endpoints:
     web:
       exposure:
         include: "*"
+  endpoint:
+    health:
+      show-details: always
