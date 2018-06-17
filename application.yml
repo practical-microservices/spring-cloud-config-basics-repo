@@ -1,0 +1,11 @@
+# Any settings placed in this file will apply to all applications that 
+# get thier config from the config server. Applications are able to 
+# override any settings specified here so this file is a great place to 
+# change any defaults for all the apps that are bootstraping from the 
+# config server. 
+
+# Expose the health endpoint details
+management:
+  endpoint:
+    health:
+      show-details: always
