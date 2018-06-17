@@ -4,8 +4,13 @@
 # change any defaults for all the apps that are bootstraping from the 
 # config server. 
 
-# Expose the health endpoint details
+# Expose the health endpoint details and make all actuator 
+# end points visible without a password this is NOT recommend in 
+# production but is useful for demos
 management:
   endpoint:
     health:
       show-details: always
+    web:
+      exposure:
+        include: "*"
