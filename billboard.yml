@@ -6,4 +6,4 @@
 # config server in this file. 
 server:
   port: 8082
-message: "Electronic Billboards Are Awesome!"
+message: "Electronic Billboards Are Awesome! Sometimes"
